@@ -1,0 +1,40 @@
+{
+  "name": "array.flatMap",
+  "version": "1.0.0",
+  "description": "Polyfill to flatten deep arrays ",
+  "main": "array.flatmap.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start",
+    "watch": "node_modules/karma/bin/karma start --single-run=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hansogj/array.flatMap.git"
+  },
+  "keywords": [
+    "array",
+    "flatmap",
+    "map"
+  ],
+  "author": "hansogj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansogj/array.flatMap/issues"
+  },
+  "homepage": "https://github.com/hansogj/array.flatMap",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-browserify": "^5.0.5",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sinon": "^1.0.5",
+    "sinon": "^1.17.4",
+    "watchify": "^3.7.0"
+  }
+}
