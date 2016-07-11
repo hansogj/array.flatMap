@@ -1,5 +1,5 @@
 {
-  "name": "array.flatMap",
+  "name": "array.flatmap",
   "version": "1.0.0",
   "description": "Polyfill to flatten deep arrays ",
   "main": "array.flatmap.js",
