@@ -3,6 +3,11 @@
   "version": "1.0.1",
   "description": "Polyfill to flatten deep arrays ",
   "main": "array.flatmap.js",
+  "files": [
+    "array.flatmap.js",
+    "typings.d.ts"
+  ],
+  "typings": "typings.d.ts",
   "directories": {
     "test": "test"
   },
